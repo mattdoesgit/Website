@@ -1,57 +1,46 @@
-h1 {
-  color: white;
-  background-color: darkgrey;
-  font-family: Arial, Helvetica, sans-serif;
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
+
 .fixed-header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    text-align: center;
-    height: 100px;
+    height: 100px; /* Adjust as needed */
+    background-color: darkgrey;
     box-sizing: border-box;
+    z-index: 1000; /* Ensure it's on top of other content */
 }
-.collapsible {
-    background-color: #f1f1f1;
-    color: #444;
-    cursor: pointer;
-    padding: 10px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 16px;
-    border-bottom: 1px solid #ddd;
-}
-.content {
-    padding: 18px;
-    display: none; /* Hidden by default */
-    overflow: hidden;
-    background-color: #f9f9f9;
-    transition: max-height 0.2s ease-out;
-}
+
 body {
-  padding: 0;
-  height: 100%;
-  background-color: white;
-  margin: 0;
-  padding-top: 70px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    padding-top: 100px; /* Should match .fixed-header height */
 }
+
 .left-strip,
 .right-strip {
     position: fixed;
     top: 0;
     bottom: 0;
-    width: 60px; /* Width of the strip */
-    background-color: #5b6063; /* Color of the strip */
+    width: 60px; /* Adjust width as needed */
+    background-color: #5b6063;
 }
 
 .left-strip {
-    left: 0; /* Position the left strip */
+    left: 0;
 }
 
 .right-strip {
-    right: 0; /* Position the right strip */
+    right: 0;
 }
 
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; /* Remove default margin */
+}
