@@ -1,3 +1,3 @@
-document.getElementById("myButton").addEventListener("click", function() {
-    window.location.href = "https://www.example.com"; // Replace with your desired URL
-});
+function redirectToWebsite(url) {
+    window.location.href = url;
+}
