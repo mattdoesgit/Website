@@ -13,6 +13,8 @@ html, body {
     background-color: darkgrey;
     box-sizing: border-box;
     z-index: 1000; /* Ensure it's on top of other content */
+    text-align: center;
+    
 }
 
 body {
@@ -29,6 +31,7 @@ body {
     bottom: 0;
     width: 60px; /* Adjust width as needed */
     background-color: #5b6063;
+    z-index: 1001;
 }
 
 .left-strip {
