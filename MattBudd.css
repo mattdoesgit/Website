@@ -36,4 +36,20 @@ body {
   margin: 0;
   padding-top: 200px;
 }
+.left-strip,
+.right-strip {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 20px; /* Width of the strip */
+    background-color: #3498db; /* Color of the strip */
+}
+
+.left-strip {
+    left: 0; /* Position the left strip */
+}
+
+.right-strip {
+    right: 0; /* Position the right strip */
+}
 
