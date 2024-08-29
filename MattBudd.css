@@ -6,6 +6,9 @@ html, body {
 
 .fixed-header {
     position: fixed;
+    display: grid;
+    place-items: center;
+    text-align: center;
     top: 0;
     left: 0;
     width: 100%;
@@ -13,7 +16,7 @@ html, body {
     background-color: darkgrey;
     box-sizing: border-box;
     z-index: 1000; /* Ensure it's on top of other content */
-    text-align: center;
+    
     
 }
 
