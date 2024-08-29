@@ -25,7 +25,7 @@ h1 {
     border-bottom: 1px solid #ddd;
 }
 .content {
-    padding: 0 18px;
+    padding: 18px;
     display: none; /* Hidden by default */
     overflow: hidden;
     background-color: #f9f9f9;
