@@ -9,8 +9,12 @@ h1 {
     left: 0;
     width: 100%;
     text-align: center;
+    height: 60px:
+    
 }
 body {
   background-color: lightgreen;
+  margin: 0;
+  padding-top: 60px;
 }
 
