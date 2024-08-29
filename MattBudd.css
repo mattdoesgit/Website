@@ -9,10 +9,9 @@ h1 {
     top: 0;
     left: 0;
     width: 100%;
+    text-align: center;
 }
 body {
   background-color: lightgreen;
 }
-.center-text {
-    text-align: center;
-}
+
