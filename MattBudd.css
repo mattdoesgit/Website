@@ -9,7 +9,7 @@ h1 {
     left: 0;
     width: 100%;
     text-align: center;
-    height: 70px;
+    height: 100px;
     box-sizing: border-box;
 }
 .collapsible {
@@ -32,6 +32,8 @@ h1 {
     transition: max-height 0.2s ease-out;
 }
 body {
+  padding: 0;
+  height: 100%;
   background-color: white;
   margin: 0;
   padding-top: 70px;
@@ -41,7 +43,7 @@ body {
     position: fixed;
     top: 0;
     bottom: 0;
-    width: 20px; /* Width of the strip */
+    width: 60px; /* Width of the strip */
     background-color: #5b6063; /* Color of the strip */
 }
 
