@@ -5,3 +5,6 @@ h1 {
 body {
   background-color: lightgreen;
 }
+.center-text {
+    text-align: center;
+}
