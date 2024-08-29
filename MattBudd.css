@@ -1,5 +1,5 @@
 h1 {
-  color: green;
+  color: white;
   background-color: grey;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -32,7 +32,7 @@ h1 {
     transition: max-height 0.2s ease-out;
 }
 body {
-  background-color: lightgreen;
+  background-color: white;
   margin: 0;
   padding-top: 200px;
 }
