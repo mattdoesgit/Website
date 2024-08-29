@@ -1,4 +1,4 @@
-var coll = document.getElementsByClassName("content");
+var coll = document.getElementsByClassName("container");
 
 // Add event listeners to each button
 for (var i = 0; i < coll.length; i++) {
