@@ -23,11 +23,13 @@ html, body {
     display: flex;
     gap: 10px; /* Adjust the space between images as needed */
     left: 60px;
+    position: absolute;
 }
 .right-image{
     display: flex;
     gap: 10px; /* Adjust the space between images as needed */
-    right: 60px
+    right: 60px;
+    position: absolute;
 }
 
 body {
