@@ -7,7 +7,7 @@ html, body {
 .fixed-header {
     position: fixed;
     display: grid;
-    place-items: center;
+    align-items: center;
     grid-template-columns: auto 1fr auto;
     top: 0;
     left: 0;
@@ -19,17 +19,17 @@ html, body {
     
     
 }
-.left-image{
+.left-image, .right-image {
     display: flex;
     gap: 10px; /* Adjust the space between images as needed */
-    left: 60px;
-    position: absolute;
 }
-.right-image{
-    display: flex;
-    gap: 10px; /* Adjust the space between images as needed */
-    right: 60px;
-    position: absolute;
+
+.left-image {
+    justify-content: flex-start; /* Align images to the left */
+}
+
+.right-image {
+    justify-content: flex-end; /* Align images to the right */
 }
 
 body {
