@@ -19,9 +19,15 @@ html, body {
     
     
 }
-.left-image, .right-image {
+.left-image{
     display: flex;
     gap: 10px; /* Adjust the space between images as needed */
+    left: 60px;
+}
+.right-image{
+    display: flex;
+    gap: 10px; /* Adjust the space between images as needed */
+    right: 60px
 }
 
 body {
