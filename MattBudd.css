@@ -19,6 +19,10 @@ html, body {
     
     
 }
+.left-image, .right-image {
+    display: flex;
+    gap: 10px; /* Adjust the space between images as needed */
+}
 
 body {
     background-color: white;
