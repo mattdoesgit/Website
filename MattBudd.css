@@ -110,3 +110,6 @@ h1 {
     background-color: #f9f9f9;
     transition: max-height 0.2s ease-out;
 }
+.content.active {
+    display: block;
+}
