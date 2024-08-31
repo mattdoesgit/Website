@@ -73,6 +73,7 @@ h1 {
     align-items: center;
     height: 100px; /* Set the height as needed */
     background-color: lightgray;
+    margin: 60px; /* Adjust as needed */
 }
 
 .left-element, .right-element {
