@@ -29,10 +29,12 @@ html, body {
     justify-content: flex-start; /* Align images to the left */
     margin-left: 70px;
 }
-
-.right-image {
+.right-image2 {
+    display: flex;
+    gap: 10px; /* Adjust the space between images as needed */
     justify-content: flex-end; /* Align images to the right */
     margin-right: 70px;
+    
 }
 
 body {
