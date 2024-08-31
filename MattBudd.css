@@ -89,7 +89,6 @@ h1 {
     height: 100%; /* Ensures equal height */
     grid-area: right;
 }
-}
 .collapsible-container {
     margin: 60px; /* Adjust as needed */
 }
