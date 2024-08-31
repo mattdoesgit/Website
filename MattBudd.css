@@ -31,7 +31,7 @@ html, body {
 }
 .right-image {
     justify-content: flex-end; /* Align images to the left */
-    margin-left: 70px;
+    margin-right: 70px;
 }
 .right-image2 {
     display: flex;
