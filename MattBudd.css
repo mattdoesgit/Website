@@ -33,11 +33,6 @@ html, body {
     justify-content: flex-end; /* Align images to the left */
     margin-right: 70px;
 }
-.right-image2 {
-    display: flex;
-    gap: 10px; /* Adjust the space between images as needed */
-    justify-content: flex-end; /* Align images to the right */
-    margin-right: 70px;
     
 }
 
@@ -71,6 +66,19 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0; /* Remove default margin */
     text-align: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr; /* Adjust columns as needed */
+    align-items: center;
+    height: 100px; /* Set the height as needed */
+    background-color: lightgray;
+}
+
+.left-element, .right-element {
+    background-color: lightblue;
+    padding: 20px;
+    height: 100%; /* Ensures equal height */
 }
 .collapsible-container {
     margin: 60px; /* Adjust as needed */
