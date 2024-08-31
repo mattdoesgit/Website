@@ -76,10 +76,19 @@ h1 {
     margin: 60px; /* Adjust as needed */
 }
 
-.left-element, .right-element {
+.left-element {
     
     padding: 20px;
     height: 100%; /* Ensures equal height */
+    grid-area: left;
+    
+}
+.right-element {
+    
+    padding: 20px;
+    height: 100%; /* Ensures equal height */
+    grid-area: right;
+}
 }
 .collapsible-container {
     margin: 60px; /* Adjust as needed */
