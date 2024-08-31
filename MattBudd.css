@@ -71,7 +71,7 @@ h1 {
     grid-template-columns: auto 1fr auto; /* Adjust columns as needed */
     grid-template-areas: "left middle right";
     align-items: center;
-    height: 80px; /* Set the height as needed */
+    height: 150px; /* Set the height as needed */
     margin: 60px; /* Adjust as needed */
 }
 
