@@ -69,15 +69,15 @@ h1 {
 }
 .container {
     display: grid;
-    grid-template-columns: 1fr auto 1fr; /* Adjust columns as needed */
+    grid-template-columns: auto 1fr auto; /* Adjust columns as needed */
     align-items: center;
     height: 100px; /* Set the height as needed */
-    background-color: lightgray;
+    
     margin: 60px; /* Adjust as needed */
 }
 
 .left-element, .right-element {
-    background-color: lightblue;
+    
     padding: 20px;
     height: 100%; /* Ensures equal height */
 }
