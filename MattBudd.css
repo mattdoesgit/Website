@@ -15,26 +15,24 @@ html, body {
     height: 70px; /* Adjust as needed */
     background-color: darkgrey;
     box-sizing: border-box;
-    z-index: 1000; /* Ensure it's on top of other content */
-    
-    
+    z-index: 1000; /* Ensure it's on top of other content */    
 }
+
 .left-image, .right-image {
     display: flex;
-    gap: 10px; /* Adjust the space between images as needed */
-    
+    gap: 10px; /* Adjust the space between images as needed */   
 }
 
 .left-image {
     justify-content: flex-start; /* Align images to the left */
     margin-left: 70px;
 }
+
 .right-image {
     justify-content: flex-end; /* Align images to the left */
     margin-right: 70px;
 }
     
-}
 
 body {
     background-color: white;
@@ -67,28 +65,27 @@ h1 {
     margin: 0; /* Remove default margin */
     text-align: center;
 }
+
 .container {
     display: grid;
     grid-template-columns: auto 1fr auto; /* Adjust columns as needed */
     align-items: center;
     height: 100px; /* Set the height as needed */
-    
     margin: 60px; /* Adjust as needed */
 }
 
-.left-element {
-    
+.left-element { 
     padding: 20px;
     height: 100%; /* Ensures equal height */
-    grid-area: left;
-    
+    grid-area: left;   
 }
-.right-element {
-    
+
+.right-element {  
     padding: 20px;
     height: 100%; /* Ensures equal height */
     grid-area: right;
 }
+
 .collapsible-container {
     margin: 60px; /* Adjust as needed */
 }
@@ -105,6 +102,7 @@ h1 {
     font-size: 16px;
     border-bottom: 1px solid #ddd;
 }
+
 .content {
     padding: 18px;
     display: none; /* Hidden by default */
